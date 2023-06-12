@@ -1,0 +1,8 @@
+version: '3'
+
+services:
+  myapp:
+    build: ./
+    restart: "no"
+    working_dir: "/usr/src/myapp"
+    command: ["cargo", "test"]
