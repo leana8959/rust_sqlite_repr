@@ -1,4 +1,7 @@
-# To reproduce the problem
+# Update
+In the branch `compile_from_source`, I updated the Dockerfile to compile `sqlite3` from source. Doing so didn't solve the problem either.
+
+## To reproduce the problem
 Running
 ```sh
 cargo test
